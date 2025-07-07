@@ -14,7 +14,7 @@ st.markdown("""
     body {
         background-color: #FFFFF0;
     }
-
+            
     .main {
         background-color: #FFFFF0;
     }
@@ -33,7 +33,7 @@ st.markdown("""
         margin-bottom: 2em;
         text-align: center;
     }
-
+            
     .title-box {
         background-color: #5F6534;
         padding: 1.5rem 2rem;
@@ -42,20 +42,20 @@ st.markdown("""
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         margin-bottom: 2rem;
     }
-
+            
     .title-box .title {
         font-size: 2.5em;
         font-weight: bold;
         color: #FFFFFF;
         margin-bottom: 0.4rem;
     }
-
+            
     .title-box .subtitle {
         color: #FFD95A;
         font-size: 1.1em;
         margin: 0;
     }
-
+            
     .character-name {
         text-align: center;
         font-size: 1.3em;
@@ -63,7 +63,7 @@ st.markdown("""
         color: #5F6534;
         margin-bottom: 10px;
     }
-
+            
     hr {
         border: none;
         border-top: 1px solid #D7A03A;
@@ -90,7 +90,7 @@ st.markdown("""
     button:hover, .stButton > button:hover {
         background-color: #D7A03A !important;
     }
-
+            
     .stSelectbox label {
         color: #5F6534 !important;
         font-weight: bold !important;
@@ -124,35 +124,6 @@ st.markdown("""
 
     [data-testid="stSidebar"], header, footer {
         display: none !important;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        body, .main, .stApp {
-            background-color: #FFFFF0 !important;
-            color: #262730 !important;
-        }
-
-        .title-box {
-            background-color: #5F6534 !important;
-            color: #FFFFFF !important;
-        }
-
-        .character-name, .subtitle, .title {
-            color: #5F6534 !important;
-        }
-
-        .wayang-desc {
-            color: #262730 !important;
-        }
-
-        .stFileUploader > label:first-child,
-        .stSelectbox label {
-            color: #5F6534 !important;
-        }
-
-        .stMarkdown {
-            color: #262730 !important;
-        }
     }
 </style>
 """, unsafe_allow_html=True)
